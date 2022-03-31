@@ -2,22 +2,37 @@
         background-color: aqua;
     }
     
-    main {
+    #contenedor {
+        background-image: url("./img/calc1.jpg");
+        border-radius: 10px;
         padding: 5%;
         margin: 20px;
         text-align: center;
     }
     
     #btnSumar,#btnRestar,#btnMultiplicar,#btnDividir{
-        background-color:rgb(126, 163, 223);
-        border-radius: 30px;
+        color: rgb(151, 212, 212);
+        background-color:rgb(31, 53, 197);
+        border-radius: 15px;
         margin-top: 20px;
+        font-family: fantasy;
         padding: 5px;
+    }
+    #btnSumar:hover,
+    #btnRestar:hover,
+    #btnMultiplicar:hover,
+    #btnDividir:hover{
+        background-color:aqua;
+        color: rgb(31, 53, 197);
+        font-family: fantasy;
     }
     h1{
         margin-bottom: 5px;
         text-align: center;
         color: blue;
+    }
+    h1:hover{
+        color: aqua;
     }
     #numeroUno,#numeroDos{
         background-color:rgb(151, 212, 212);
@@ -25,5 +40,9 @@
         margin-top: 10px;
         padding: 5px;
         border-radius: 10px;
+    }
+    #resultado{
+        color: aqua;
+        font-family:cursive;
     }
     
