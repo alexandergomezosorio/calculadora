@@ -1,0 +1,29 @@
+    body {
+        background-color: aqua;
+    }
+    
+    main {
+        padding: 5%;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    #btnSumar,#btnRestar,#btnMultiplicar,#btnDividir{
+        background-color:rgb(126, 163, 223);
+        border-radius: 30px;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    h1{
+        margin-bottom: 5px;
+        text-align: center;
+        color: blue;
+    }
+    #numeroUno,#numeroDos{
+        background-color:rgb(151, 212, 212);
+        text-align: center;
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
